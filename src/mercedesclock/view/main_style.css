@@ -1,0 +1,75 @@
+.root{
+	-fx-cursor: move;
+}
+
+#topNav{
+	-fx-min-height: 20;
+	-fx-pref-height: 20;
+	-fx-max-height: 20;
+	-fx-alignment: center-right;
+}
+
+.button{
+	-fx-background-color: linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%);
+	-fx-text-fill: white;
+	-fx-padding: 0;
+	-fx-text-alignment: center;
+	-fx-min-width: 20;
+	-fx-pref-width: 20;
+	-fx-max-width: 20;
+	-fx-cursor: hand;
+	-fx-opacity: 0.4;
+}
+
+.button:hover{
+	-fx-opacity: 1;
+}
+
+#clock{
+	-fx-background-color:  linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%);
+	-fx-background-radius: 100%;
+	-fx-border-width: 10;
+	-fx-border-radius: 100%;
+	-fx-border-color: lightgrey;
+	-fx-background-image: url("mercedes_logo3.png");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center center;
+}
+
+.label{
+	-fx-text-fill: white;
+}
+
+.tick{
+	-fx-stroke: white;
+	-fx-translate-x: 125;
+	-fx-translate-y: 125;
+}
+
+
+#secHand{
+	-fx-stroke: red;
+	-fx-translate-x: 125;
+	-fx-translate-y: 125;
+}
+
+#minHand{
+	-fx-stroke: linear-gradient(white 0%, grey 25%, lightgrey 75%, white 100%);
+	-fx-stroke-width: 3;
+	-fx-translate-x: 125;
+	-fx-translate-y: 125;
+}
+
+#hourHand{
+	-fx-stroke: linear-gradient(lightgrey 10%, grey 25%, lightgrey 75%, white 100%);
+	-fx-stroke-width: 4;
+	-fx-translate-x: 125;
+	-fx-translate-y: 125;
+	-fx-stroke-type: centered;
+}
+
+#handsNode{
+	-fx-fill: grey;
+	-fx-translate-x: 125;
+	-fx-translate-y: 125;
+}
